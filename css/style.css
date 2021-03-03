@@ -1,0 +1,19 @@
+body {
+    margin : 0;
+}
+
+.wrapper {
+    background-color: red;
+}
+
+.header {
+    background-color: blue;
+}
+
+.mian {
+    background-color: yellow;
+}
+
+.footer {
+    background-color: green;
+}
