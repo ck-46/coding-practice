@@ -1,0 +1,63 @@
+.sec1 {
+    width: 100%;
+    text-align: center;
+    background-color: #EBB94E;
+    &__content {
+        width: 1200px;
+        margin: 0 auto;
+        padding: 35px 0;
+        font-size: 20px;
+    }
+    &__text {
+        color: #fff;
+        margin-bottom: 10px;
+        &--red {
+            background-color: #fff;
+            color: red;
+            font-size: 16px;
+            font-weight: bold;
+            border-radius: 4px;
+            padding: 2px;
+        }
+    }
+    &__button {
+        background-color: #D94940;
+        opacity: 0.6;
+        height: 100px;
+        width: 1000px;
+        border-radius: 50px;
+        margin: 48px auto;
+        &:hover {
+            opacity: 1;
+            cursor: pointer;
+        }
+        &--text {
+            color: #fff;
+            font-size: 26px;
+            font-weight: bold;
+            line-height: 100px;
+        }
+    }
+    &__recruit {
+        margin: 24px 0;
+    }
+    &__sns {
+        color: #fff;
+        font-size: 12px;
+        &--twitter {
+            border-radius: 4px;
+            padding: 2px;
+            background-color: #1C96E0;
+        }
+        &--facebook {
+            border-radius: 4px;
+            padding: 2px;
+            background-color: #1A76F2;
+        }
+        &--share {
+            border-radius: 4px;
+            padding: 2px;
+            background-color: #1A76F2;
+        }
+    }
+}
