@@ -1,0 +1,35 @@
+.main {
+  width: 100%;
+  padding-top: 75px;
+}
+.main__top {
+  background-image: url("../img/main.png");
+  background-position: center;
+  width: 100%;
+  height: 500px;
+  background-size: cover;
+}
+.main__top--content {
+  text-align: center;
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -30%);
+}
+.main__top--main {
+  font-size: 25px;
+  font-weight: bold;
+  line-height: 2;
+}
+.main__top--sub {
+  font-size: 20px;
+  font-weight: bold;
+}
+.main__top--logo {
+  width: 320px;
+  margin-bottom: 24px;
+}
+.main__container {
+  width: 1200px;
+  margin: 0 auto;
+}/*# sourceMappingURL=main.css.map */
